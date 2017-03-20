@@ -15,26 +15,26 @@ Hangman game
 ### Landing Page
 When the user first gets to the page they are alerted of the category they are playing with. There are 3 categories, each with 8-10 words. The category and the word are randomly chosen at the start of the game
 <p align='center'>
-    <img src='#'></img>
+    <img src='https://github.com/juliemdyer/Hangman/blob/master/screenshots/landing_page.png'></img>
 </p>
 
 ### Game Play
 To guess a letter the user clicks on any of the letters displayed in orange. As they hover over a new letter the letter enlarges slightly. If clicked it permanently turns purple and becomes disabled.
 If the letter guessed is in the word, the letter shows up in the green word box. If it is not there, a part of the hangman body will display.
 <p align='center'>
-    <img src='#'></img>
+    <img src='https://github.com/juliemdyer/Hangman/blob/master/screenshots/game_play.png'></img>
 </p>
 
 ### Loser
 If the user runs out of guesses, the secret word is shown and the user is asked if they want to play again. If they hit play again the page is refreshed and a new word is picked.
 <p align='center'>
-    <img src='#'></img>
+    <img src='https://github.com/juliemdyer/Hangman/blob/master/screenshots/loser.png'></img>
 </p>
 
 ### winner
 If the user guesses the word correctly before hangman is hung, a congratulatory message is displayed along with the PlayAgain button.
 <p align='center'>
-    <img src='#'></img>
+    <img src='https://github.com/juliemdyer/Hangman/blob/master/screenshots/winer.png'></img>
 </p>
 
 
@@ -80,7 +80,7 @@ if (matchFound === false) {
 ```
 
 ### Check for a winner
-At each button click I check to see if the user has won the game. I loop over each letter in the secret word and check if each letter has the class "winner". If it does it gets added to the goodGuesses array. I then check to see if the length of the goodGuesses array is the same as the length of the secret Word array. If it is, then I know that the user has guessed all the letters and has therefore won. 
+At each button click I check to see if the user has won the game. I loop over each letter in the secret word and check if each letter has the class "winner". If it does it gets added to the goodGuesses array. I then check to see if the length of the goodGuesses array is the same as the length of the secret Word array. If it is, then I know that the user has guessed all the letters and has therefore won.
 
 ```JavaScript        
 //Check for winner
